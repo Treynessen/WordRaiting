@@ -1,5 +1,8 @@
-﻿namespace Trane.Languages
+﻿using System;
+
+namespace Trane.Languages
 {
+    [Serializable]
     public class WordRaitingInfo
     {
         public int Raiting { get; }

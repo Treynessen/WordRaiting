@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace Trane.Languages
 {
+    [Serializable]
     public class WordRaiting
     {
         private int hashCellSize;
